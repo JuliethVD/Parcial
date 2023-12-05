@@ -1,0 +1,46 @@
+{
+  "components": [
+    {
+      "text": "# Review",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0yrluk8",
+        "columns": null
+      },
+      "id": "Field_0v0k4dz"
+    },
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "label": "Can you solve?",
+      "type": "select",
+      "layout": {
+        "row": "Row_0r8236v",
+        "columns": null
+      },
+      "id": "Field_0qpworf",
+      "key": "solution",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "solution2",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 10
+}

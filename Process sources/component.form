@@ -1,0 +1,47 @@
+{
+  "components": [
+    {
+      "text": "# Components",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0x76j2l",
+        "columns": null
+      },
+      "id": "Field_04yghyl"
+    },
+    {
+      "values": [
+        {
+          "label": "Router",
+          "value": "router"
+        },
+        {
+          "label": "Network cable ",
+          "value": "networkcable"
+        },
+        {
+          "label": "None",
+          "value": "none"
+        }
+      ],
+      "label": "What component do you need to change?",
+      "type": "select",
+      "layout": {
+        "row": "Row_177w9ou",
+        "columns": null
+      },
+      "id": "Field_1c00wll",
+      "key": "component"
+    }
+  ],
+  "type": "default",
+  "id": "components",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}

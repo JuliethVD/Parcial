@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "text": "# Survey",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0sliomv",
+        "columns": null
+      },
+      "id": "Field_0omsz8a"
+    },
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "label": "Was the form fully completed?",
+      "type": "select",
+      "layout": {
+        "row": "Row_18tmyhn",
+        "columns": null
+      },
+      "id": "Field_05ksuei",
+      "key": "itscomplete"
+    }
+  ],
+  "type": "default",
+  "id": "checksurvey",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.17.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 12
+}

@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "text": "# Satisfaction survey",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1alge45",
+        "columns": null
+      },
+      "id": "Field_0d8kg90"
+    },
+    {
+      "values": [
+        {
+          "label": "Very Satisfied",
+          "value": "5"
+        },
+        {
+          "label": "Satisfied",
+          "value": "4"
+        },
+        {
+          "label": "Neutral",
+          "value": "3"
+        },
+        {
+          "label": "Dissatisfied",
+          "value": "2"
+        },
+        {
+          "label": "Very Dissatisfied",
+          "value": "1"
+        }
+      ],
+      "label": "Product/Service Satisfaction",
+      "type": "select",
+      "layout": {
+        "row": "Row_0b318m0",
+        "columns": null
+      },
+      "id": "Field_0eb8d3w",
+      "key": "productsatisfaction",
+      "validate": {
+        "required": false
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Very Satisfied",
+          "value": "5"
+        },
+        {
+          "label": "Satisfied",
+          "value": "4"
+        },
+        {
+          "label": "Neutral",
+          "value": "3"
+        },
+        {
+          "label": "Dissatisfied",
+          "value": "2"
+        },
+        {
+          "label": "Very Dissatisfied",
+          "value": "1"
+        }
+      ],
+      "label": "Customer Service:",
+      "type": "select",
+      "layout": {
+        "row": "Row_0p0jul7",
+        "columns": null
+      },
+      "id": "Field_1si9jyr",
+      "key": "customerservice",
+      "validate": {
+        "required": false
+      }
+    },
+    {
+      "text": "On a scale of 1 to 10, how likely are you to recommend to a friend or colleague?",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0h9iglu",
+        "columns": null
+      },
+      "id": "Field_19zlm3p"
+    },
+    {
+      "label": "Likelihood to Recommend",
+      "type": "number",
+      "layout": {
+        "row": "Row_0h9iglu",
+        "columns": null
+      },
+      "id": "Field_0liz2is",
+      "key": "likelihood",
+      "validate": {
+        "min": 1,
+        "max": 10,
+        "required": false
+      }
+    },
+    {
+      "text": "Thank you for taking the time to complete our survey! Your feedback is invaluable to  us.",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_08odq6i",
+        "columns": null
+      },
+      "id": "Field_1n5vki4"
+    }
+  ],
+  "type": "default",
+  "id": "survey",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.17.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 12
+}

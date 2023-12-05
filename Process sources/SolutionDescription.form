@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "text": "# Solution Description",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_022ans5",
+        "columns": null
+      },
+      "id": "Field_1j67il8"
+    },
+    {
+      "label": "Solution Overview",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0dtj05s",
+        "columns": null
+      },
+      "id": "Field_1wb5dq8",
+      "key": "Descriptionsolution"
+    }
+  ],
+  "type": "default",
+  "id": "descriptionsolution",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.17.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 12
+}

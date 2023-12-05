@@ -1,0 +1,167 @@
+{
+  "components": [
+    {
+      "text": "# Initial Fault Report Form",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0anzvp8",
+        "columns": null
+      },
+      "id": "Field_0ewcvty"
+    },
+    {
+      "text": "Customer Information:",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_15d3hx8",
+        "columns": null
+      },
+      "id": "Field_0jj454z"
+    },
+    {
+      "label": "Customer Name:",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_095r8oe",
+        "columns": null
+      },
+      "id": "Field_11hz43r",
+      "key": "Customer_name",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "text": "Fault Description:",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_18y2yi7",
+        "columns": null
+      },
+      "id": "Field_0qm7r46"
+    },
+    {
+      "label": "Customer ID:",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1oxcyy5",
+        "columns": null
+      },
+      "id": "Field_1ek76cy",
+      "key": "Customer_id",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Date ",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_058vgtw",
+        "columns": null
+      },
+      "id": "Field_097xjh9",
+      "key": "date",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "A brief description of the problem",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0k7w0l0",
+        "columns": null
+      },
+      "id": "Field_0wssasl",
+      "key": "descriptionproblem",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Service Location (Address):",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_04vkzk9",
+        "columns": null
+      },
+      "id": "Field_0anuufm",
+      "key": "Address",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "text": "Technical Details:",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1j5uuxa",
+        "columns": null
+      },
+      "id": "Field_0z1jtkp"
+    },
+    {
+      "values": [
+        {
+          "label": "Residential Internet",
+          "value": "Residential Internet"
+        },
+        {
+          "label": "Business Internet",
+          "value": "Business Internet"
+        },
+        {
+          "label": "Landline Telephony",
+          "value": "Landline Telephony"
+        },
+        {
+          "label": "Mobile Telephony",
+          "value": "Mobile Telephony"
+        },
+        {
+          "label": "Cable/Satellite TV",
+          "value": "Cable/Satellite TV"
+        },
+        {
+          "label": "Fiber Optic",
+          "value": "Fiber Optic"
+        }
+      ],
+      "label": "Type of Service",
+      "type": "select",
+      "layout": {
+        "row": "Row_1sd3bx1",
+        "columns": null
+      },
+      "id": "Field_1jo93u3",
+      "key": "Type_service",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Error Message (if applicable):",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0izw8wx",
+        "columns": null
+      },
+      "id": "Field_14gv9e3",
+      "key": "Error_message"
+    }
+  ],
+  "type": "default",
+  "id": "Initialreport",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.17.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 12
+}

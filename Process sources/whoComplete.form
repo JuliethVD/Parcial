@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "text": "# Generating code",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0ts0mfc",
+        "columns": null
+      },
+      "id": "Field_16rgpf7"
+    },
+    {
+      "values": [
+        {
+          "label": "Organizational  consultant",
+          "value": "organizationalconsultant"
+        },
+        {
+          "label": "DIAN worker",
+          "value": "dianworker"
+        }
+      ],
+      "label": "Choose who must complete the code",
+      "type": "select",
+      "layout": {
+        "row": "Row_1fppb9d",
+        "columns": null
+      },
+      "id": "Field_1shv0ao",
+      "key": "who"
+    }
+  ],
+  "type": "default",
+  "id": "whocomplete",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.2"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}

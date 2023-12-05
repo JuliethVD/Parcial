@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "text": "# Values for DIAN",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_00izkg3",
+        "columns": null
+      },
+      "id": "Field_0qq55wl"
+    },
+    {
+      "label": "first name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1vci382",
+        "columns": null
+      },
+      "id": "Field_0xlyuhm",
+      "key": "name"
+    },
+    {
+      "label": "Surname",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0p8ptwr",
+        "columns": null
+      },
+      "id": "Field_0soukru",
+      "key": "surname"
+    },
+    {
+      "label": "ID",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1n9vgns",
+        "columns": null
+      },
+      "id": "Field_038s080",
+      "key": "cc"
+    }
+  ],
+  "type": "default",
+  "id": "values",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.2"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}

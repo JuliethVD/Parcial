@@ -1,0 +1,46 @@
+{
+  "components": [
+    {
+      "text": "# Define solution",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1pwtsy4",
+        "columns": null
+      },
+      "id": "Field_13dvtap"
+    },
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "label": "Can you solve?",
+      "type": "select",
+      "layout": {
+        "row": "Row_0vindir",
+        "columns": null
+      },
+      "id": "Field_0kl6so1",
+      "key": "selectsolution",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "check",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.17.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 12
+}

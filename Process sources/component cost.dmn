@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:biodi="http://bpmn.io/schema/dmn/biodi/2.0" id="valueComponents2" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.15.1" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.19.0">
+  <decision id="valueComponents" name="Change components">
+    <decisionTable id="DecisionTable_0gzopp6">
+      <input id="Input_1" label="component">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text>component</text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="cost" name="cost" typeRef="long" biodi:width="192" />
+      <rule id="DecisionRule_0ifl4bf">
+        <inputEntry id="UnaryTests_1alxip3">
+          <text>"router"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1s58uvx">
+          <text>30000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_0g95jvw">
+        <inputEntry id="UnaryTests_1335yf1">
+          <text>"networkcable"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_04a5ay8">
+          <text>5000</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1j2obfa">
+        <inputEntry id="UnaryTests_16jr7r1">
+          <text>"none"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0cij9gx">
+          <text>0</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="valueComponents">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

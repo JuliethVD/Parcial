@@ -1,0 +1,114 @@
+{
+  "components": [
+    {
+      "text": "# Technical failure report",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_15hpsre",
+        "columns": null
+      },
+      "id": "Field_087jqdq"
+    },
+    {
+      "label": "Customer Name:",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0m899qn",
+        "columns": null
+      },
+      "id": "Field_0kz7xjq",
+      "key": "Customer_name"
+    },
+    {
+      "label": "Date",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_16rsurl",
+        "columns": null
+      },
+      "id": "Field_0sxuftn",
+      "key": "date"
+    },
+    {
+      "text": "Technical Details:",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0d1ew31",
+        "columns": null
+      },
+      "id": "Field_1mw5pu7"
+    },
+    {
+      "label": "Type service:",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0hd74l0",
+        "columns": null
+      },
+      "id": "Field_1a5bkgr",
+      "key": "Type_service"
+    },
+    {
+      "label": "Description of the Technical Issue:",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_16idv7v",
+        "columns": null
+      },
+      "id": "Field_1owvqyw",
+      "key": "descriptionproblem"
+    },
+    {
+      "label": "Overall Customer Satisfaction Percentage",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0kcdmlt",
+        "columns": null
+      },
+      "id": "Field_1p01smb",
+      "key": "p"
+    },
+    {
+      "label": "Solution Overview",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1chrm4y",
+        "columns": null
+      },
+      "id": "Field_01xdj5b",
+      "key": "Descriptionsolution"
+    },
+    {
+      "label": "Cost",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1baaiic",
+        "columns": null
+      },
+      "id": "Field_0vwx656",
+      "key": "cost",
+      "defaultValue": "0"
+    },
+    {
+      "label": "Additional Comments:",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_14sz2po",
+        "columns": null
+      },
+      "id": "Field_0zkmsiv",
+      "key": "textfield_rhqbsp"
+    }
+  ],
+  "type": "default",
+  "id": "report",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.1"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 10
+}

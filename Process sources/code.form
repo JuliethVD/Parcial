@@ -1,0 +1,34 @@
+{
+  "components": [
+    {
+      "text": "# Code",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1xsys83",
+        "columns": null
+      },
+      "id": "Field_1osst4l"
+    },
+    {
+      "label": "Complete with the code ",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0jc2vit",
+        "columns": null
+      },
+      "id": "Field_0rjbozr",
+      "key": "DIANCode",
+      "defaultValue": "CindySofía1121834306"
+    }
+  ],
+  "type": "default",
+  "id": "code",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.2"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}
